@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style3.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="navbar-left">
+        <a href="index.html" class="logo"><img src="images/logo.png"></a>
+
+        <div class="search-box">
+            <img src="images/search.png" alt="">
+            <input type="text" placeholder="Search">
+        </div>
+    </div>
+    <div class="navbar-center">
+        <ul>
+            <li><a href="index.html" class="active-link"><img src="images/home.png"><span>Home</span></a></li>
+            <li><a href="#"><img src="images/network.png"><span>My Network</span></a></li>
+            <li><a href="#"><img src="images/jobs.png"><span>Jobs</span></a></li>
+            <li><a href="m.html"><img src="images/message.png"><span>messaging</span></a></li>
+            <li><a href="#"><img src="images/notification.png" onclick="toggleNotifi()"><span onclick="toggleNotifi()" >Notifications</span></a></li>
+             <div class="notifi-box" id="box">
+                <h2>Notifications <span>17</span></h2>
+                <div class="notifi-item">
+                    <img src="img/avatar1.png" alt="img">
+                    <div class="text">
+                       <h4>Elias Abdurrahman</h4>
+                       <p>comment you post</p>
+                    </div> 
+                </div>
+    
+                <div class="notifi-item">
+                    <img src="img/avatar2.png" alt="img">
+                    <div class="text">
+                       <h4>John Doe</h4>
+                       <p>like you post</p>
+                    </div> 
+                </div>
+    
+                <div class="notifi-item">
+                    <img src="img/avatar3.png" alt="img">
+                    <div class="text">
+                       <h4>Emad Ali</h4>
+                       <p> comment you post</p>
+                    </div> 
+                </div>
+    
+                <div class="notifi-item">
+                    <img src="img/avatar4.png" alt="img">
+                    <div class="text">
+                       <h4>Ekram Abu </h4>
+                       <p>like you post</p>
+                    </div> 
+                </div>
+    
+                <div class="notifi-item">
+                    <img src="img/avatar5.png" alt="img">
+                    <div class="text">
+                       <h4>Jane Doe</h4>
+                       <p>like you post</p>
+                    </div> 
+                </div>
+    
+            </div>
+        </div>
+        </ul>
+    </div>
+    <div class="navbar-right">
+        <div class="online">
+            <img src="images/user-1.jpg" class="nav-profile-img" onclick="toggleMenu()">
+        </div>
+    </div>
+<!-------------------------- profle-drop-down-manu------------------->
+<div class="profile-manu-wrap" id="profileMenu">
+    <div class="profile-manu">
+        <div class="user-info">
+            <img src="images/user-1.jpg">
+            <div>
+                <h3>MD. JAHIDUL HASAN JAHID</h3>
+                <a href="profile page.html"> See your Profile</a>
+            </div>
+        </div>
+        <hr>
+        <a href="#" class="profile-manu-link">
+            <img src="images/feedback.png">
+            <p>Give Feedback</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-manu-link">
+            <img src="images/setting.png">
+            <p>Setteings & Privacy</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-manu-link">
+            <img src="images/help.png">
+            <p>Help & Support</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-manu-link">
+            <img src="images/display.png">
+            <p>Display & Accessiblity</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-manu-link">
+            <img src="images/logout.png">
+            <p>Logout</p>
+            <span>></span>
+        </a>
+    </div>
+</div>
+
+
+</nav>
+
+<!------------------navbar close-------------------->
+<div class="container">
+    <div class="profile-main">
+        <div class="profile-container">
+            <img src="images/cover-pic.png" width="100%">
+            <div class="profile-container-inner">
+                <img src="images/user-1.jpg" class="profile-pic">
+                <h1>MD. JAHIDUL HASAN JAHID</h1>
+                <b>Lecturer Department of CSE at Port City International University</b>
+                <p>Chattogram, Bangladesh &middot; <a href="#">Contact Info</a></p>
+                <div class="mutual-connection">
+                    <img src="images/user-5.png">
+                    <span>1 mutual connection: Tom Jak</span>
+                </div>
+                <div class="profile-btn">
+                    <a href="#" class="primery-btn"><img src="images/connect.png">Connect</a>
+                    <a href="#"><img src="images/chat.png">Massage</a>
+                </div>
+            </div>
+        </div>
+        <div class="profile-description">
+            <h2>About</h2>
+            <p>As a lecturer, I'm known for this engaging teaching style, I have ability to explain complex concepts in simple terms, and my dedication to our students. I'm committed to creating a positive learning environment where students feel comfortable asking questions, sharing their ideas, and exploring new areas of knowledge.</p>
+            <a href="#" class="see-more-link">See More.....</a>
+        </div>
+        <div class="profile-description">
+            <h2>Experience</h2>
+            <div class="profile-desc-row">
+                <img src="images/microsoft.png">
+                <div>
+                    <h3>Lead Front-End Developer</h3>
+                    <b>Microsoft &middot; Full-time</b>
+                    <b>Feb 2021 - present &middot; 2.1 years</b>
+                    <p>Computer programming is the process of performing a particular computation, usually by designing and building an executable Computer program</p>
+                    <hr>
+                </div>
+            </div>
+            <div class="profile-desc-row">
+                <img src="images/slack.png">
+                <div>
+                    <h3>Full Stack Developer</h3>
+                    <b>Slack &middot; Full-time</b>
+                    <b>June 2018 - Jan 2021 &middot; 2.6 years</b>
+                    <p>Computer programming is the process of performing a particular computation, usually by designing and building an executable Computer program</p>
+                    <hr>
+                </div>
+            </div>
+            <div class="profile-desc-row">
+                <img src="images/google.png">
+                <div>
+                    <h3>Web Developer</h3>
+                    <b>Google Inc &middot; Full-time</b>
+                    <b>Sept 2015 - May 2018 &middot; 2.8 years</b>
+                    <p>Computer programming is the process of performing a particular computation, usually by designing and building an executable Computer program</p>
+                </div>
+            </div>
+            <hr>
+            <a href="#" class="Experience-link">Show all 7 Experience <img src="images/right-arrow.png"></a>
+        </div>
+        <div class="profile-description">
+            <h2>Education</h2>
+            <div class="profile-desc-row">
+                <img src="images/uni.png">
+                <div>
+                    <h3>Chittagong University of Engineering & Technology</h3>
+                    <b>B.Sc. in Computer Science & Engineering (CSE)</b>
+                    <b>2018 - 2022</b>
+                    <hr>
+                </div>
+            </div>
+            <div class="profile-desc-row">
+                <img src="images/city.png">
+                <div>
+                    <h3>Government City College, Chattogram</h3>
+                    <b>Science</b>
+                    <b>2016 - 2018</b>
+                </div>
+            </div>
+        </div>
+        <div class="profile-description">
+            <h2>Skills</h2>
+            <a href="#" class="skills-btn">Leadership</a>
+            <a href="#" class="skills-btn">Web Design</a>
+            <a href="#" class="skills-btn">Development</a>
+            <a href="#" class="skills-btn">UI/UX</a>
+            <a href="#" class="skills-btn">Planning</a>
+            <a href="#" class="skills-btn">Coding</a>
+            <a href="#" class="skills-btn">Python</a>
+        
+        </div>
+        <div class="profile-description">
+            <h2>Languages</h2>
+            <a href="#" class="languages-btn">English</a>
+            <a href="#" class="languages-btn">Hindi</a>
+            <a href="#" class="languages-btn">Bangla</a>
+            
+        </div>
+    </div>
+<!----------------------------profile-sidebar-------------------->
+    <div class="profile-sidebar">
+
+        <div class="sidebar-ad">
+            <small>Ad &middot; &middot; &middot;</small>
+            <p>Master the 5 Priciples of web design</p>
+            <div>
+                <img src="images/user-1.jpg">
+                <img src="images/mi-logo.png">
+            </div>
+            <b>Brand and Demand in Xiaomi</b>
+            <a href="#" class="ad-link">Learn More</a>
+        </div>
+
+        <div class="sidebar-people">
+            <h3>People you may know</h3>
+            <div class="sidebar-people-row">
+                <img src="images/user-3.png">
+                <div>
+                    <h2>Samuel Tony</h2>
+                    <p>Head of Marketing at Unilever</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+            <div class="sidebar-people-row">
+                <img src="images/user-4.png">
+                <div>
+                    <h2>Benjamin leo</h2>
+                    <p>Head of Marketing at Amazon</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+            <div class="sidebar-people-row">
+                <img src="images/user-5.png">
+                <div>
+                    <h2>Steave Gr</h2>
+                    <p>Head of Marketing at Alibaba</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+            <div class="sidebar-people-row">
+                <img src="images/user-2.png">
+                <div>
+                    <h2>Martin Lewis</h2>
+                    <p>Head of Marketing at Dell</p>
+                    <a href="#">Connect</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="profile-footer">
+    <div class="sidebar-useful-links">
+        <a href="#">About</a>
+        <a href="#">accessiblity</a>
+        <a href="#">Help Center</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Advertising</a>
+        <a href="#">Get the App</a>
+        <a href="#">More</a>
+
+        <div class="copyright-msg">
+            <img src="images/logo.png">
+            <p>Linkedup &#169; 2022. All right reserved</p>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    let ProfileMenu = Document.getElementById("profileMenu")
+
+    function toggleMenu(){
+        profileMenu.classList.toggle("open-menu")
+    }
+
+</script>
+
+
+
+<script src="js/script2.js"></script>
+</body>
+</html>
