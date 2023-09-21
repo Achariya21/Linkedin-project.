@@ -9,3 +9,5 @@ Notification Alert Menu
 How To make Animated Notification
 
 ![img](https://github.com/eliasFsDev/Animated-Notification-Box/blob/master/Notification.png)
+
+visit my website: https://achariya21.github.io/Linkedin-project./
